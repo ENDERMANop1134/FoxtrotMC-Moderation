@@ -7,7 +7,8 @@
 # Inclusions / Exclusions done manually in this file or through plugin commands
 # MineCICD GITIGNORE PART BEGIN MARKER
 !/plugins/**
-/plugins/Boss-5.2.5.jar
+/plugins/Boss/*
+!/plugins/Boss/*/
 # MineCICD GITIGNORE PART END MARKER
 
 # MineCICD is priority EXCLUDED. It is not recommended to track it, as this could lead to security risks or other issues
