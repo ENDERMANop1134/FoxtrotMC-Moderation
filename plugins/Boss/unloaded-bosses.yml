@@ -1,0 +1,16 @@
+# This file stores unloaded Bosses to apply world limits. The first section is the world,
+# then the Boss type with chunk coords and a list of saved entity UUIDs.
+#
+# You can safely delete this or parts of this file while server is stopped.
+
+world:
+  Vex:
+    6241 6307:
+    - c1680320-8a46-4db0-afd7-fc9bd38b8328
+  Illusioner:
+    55 -17:
+    - 56b942c5-2dd2-4a55-bd39-90967d765e4b
+    137 69:
+    - 23fa2b67-03e3-406e-9aeb-4ee0115f5b65
+    121 60:
+    - 1c33bf18-afe3-4558-91bf-048ecc603457
