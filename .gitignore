@@ -41,7 +41,6 @@
 *.png
 *.dat
 *.log
-*.db
 *.sql
 *.sqlite
 *.zip
