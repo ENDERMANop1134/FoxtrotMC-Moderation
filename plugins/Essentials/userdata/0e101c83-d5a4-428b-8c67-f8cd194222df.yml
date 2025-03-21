@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: true
+muted: false
+jailed: false
+ip-address: 75.117.145.224
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1742497137455
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1742516752544
+  login: 1742516840441
+money: '8936.263999999999964'
+last-account-name: EnderFoxQueen
+logoutlocation:
+  world: 39f03c9a-35c6-42fd-bd6c-2e1cbcf7c927
+  world-name: world
+  x: 98366.77984065142
+  y: 72.0
+  z: 100544.50612326441
+  yaw: -18.74884033203125
+  pitch: 10.949931144714355
+lastlocation:
+  world: 6aee35e4-6012-4342-b700-c75e955f7e14
+  world-name: world_nether
+  x: 12311.530998368491
+  y: 68.0
+  z: 12512.555013494135
+  yaw: 128.40011596679688
+  pitch: 12.300002098083496
+confirm-pay: true

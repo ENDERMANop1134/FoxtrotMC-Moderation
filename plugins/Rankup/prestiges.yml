@@ -1,0 +1,20 @@
+# !!! To use prestiges, you must first enable it in config.yml
+
+first:
+  # the rank people must be to use this prestige
+  from: 'renowned'
+  # the rank to change it to
+  to: 'default'
+  next: 'veteran'
+  # see rankups.yml for more information on requirements, commands, and messages
+  requirements:
+    - 'money 100000'
+P1example:
+  from: 'D'
+  to: 'A'
+  # the rank added to indicate this prestige
+  rank: 'P1'
+  next: 'P2'
+  requirements:
+    - 'money 200000'
+    - 'xp-level 5'

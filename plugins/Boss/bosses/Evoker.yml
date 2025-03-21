@@ -1,0 +1,162 @@
+#  -------------------------------------------------------------------------------------------------
+#  The main Boss configuration file. Send it to friends or publish online, we'll load it automatically.
+#  We recommend AGAINST editing it here. Use /boss menu instead. MineAcademy.org is not responsible
+#  for data loss, hair loss, your ego or thermonuclear war from mistakes in your edit.
+#  -------------------------------------------------------------------------------------------------
+
+Type: EVOKER
+Health: 600.0
+Equipment: {}
+Random_Equipment_On_Empty_Slots: false
+Potion_Effects:
+  INCREASE_DAMAGE: 1
+Riding:
+  Vanilla: []
+  Boss: []
+  Remove_On_Death: false
+Commands: []
+Commands_Stop_After_First: false
+Attributes: {}
+Lightning:
+  Death: false
+  Spawn: false
+Reinforcements:
+- Boss_Name: Wither
+  Amount: 1
+  Chance: 0.010000000000000024
+Custom_Settings: {}
+Skills:
+  Teleport:
+    Delay: 45 seconds - 2 minutes
+    Commands: []
+    Messages: []
+    Stop_More_Skills: true
+    Settings:
+      Radius: 5
+  Minions:
+    Delay: 2 minutes - 3 minutes
+    Commands: []
+    Messages: []
+    Stop_More_Skills: true
+    Settings:
+      Boss_Names:
+      - test
+      - none
+      Radius: 10
+      Amount: 2
+  Fireball:
+    Delay: 20 seconds - 50 seconds
+    Commands: []
+    Messages: []
+    Stop_More_Skills: true
+    Settings:
+      Power: 1.8
+      Destroy_Blocks: false
+  Enderman:
+    Delay: 45 seconds - 2 minutes
+    Commands: []
+    Messages: []
+    Stop_More_Skills: true
+    Settings:
+      Radius: 5
+  Lightning:
+    Delay: 30 seconds - 1 minute
+    Commands: []
+    Messages: []
+    Stop_More_Skills: true
+    Settings:
+      Radius: 5
+  Throw:
+    Delay: 30 seconds - 1 minute
+    Commands: []
+    Messages: []
+    Stop_More_Skills: true
+    Settings:
+      Radius: 5
+      Power: 1.2
+  Freeze:
+    Delay: 20 seconds - 40 seconds
+    Commands: []
+    Messages: []
+    Stop_More_Skills: true
+    Settings:
+      Duration: 3 seconds
+      Cobweb: true
+Drops:
+  Vanilla: false
+  General:
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Player:
+  - {}
+  Player_Time_Threshold: 15 seconds
+  Player_Commands: []
+Limit_Reasons:
+- SPAWN_RULE
+Limit:
+  Nearby_Bosses:
+    Key: 100
+    Value: 20.0
+  Worlds: {}
+Citizens:
+  Enabled: false
+  Speed: 5.0
+  Skin: null
+  Sound_Death: null
+  Sound_Hurt: null
+  Sound_Ambient: null
+  Goal_Target_Enabled: false
+  Goal_Target_Aggressive: false
+  Goal_Target_Radius: 24
+  Goal_Target_Entities: []
+  Goal_Wander_Enabled: false
+  Goal_Wander_Radius: 18
+Keep_In_Spawn_Region: false
+Egg:
+  Lore: []
+Last_Death_From_Spawn_Rule: {}
+Dropped_Exp: 200 - 400
+Alias: '&4Head Evoker'

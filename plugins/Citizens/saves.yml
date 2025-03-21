@@ -1,0 +1,38 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 10
+npc:
+  '0':
+    metadata:
+      BossName: Illusioner
+      collidable: true
+      damage-others: true
+      protected: false
+      drops-items: true
+    name: hidden
+    uuid: 23fa2b67-03e3-406e-9aeb-4ee0115f5b65
+    traits:
+      equipment:
+        hand:
+          type: bow
+          amount: 1
+      ma_healthtrait:
+        boss_health: 57.79212236404419
+      spawned: true
+      location:
+        bodyYaw: 295.90967
+        world: world
+        x: 2198.8597
+        y: 71.0
+        z: 1113.4716
+        yaw: 295.9097
+        pitch: -7.5224
+      skintrait:
+        skinName: hidden
+      type: ILLUSIONER
+    traitnames: scoreboardtrait,spawned,ma_healthtrait,skintrait,equipment,location,type,inventory
+    navigator:
+      distancemargin: 0.5
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
